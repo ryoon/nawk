@@ -1,3 +1,5 @@
+/* $NetBSD: ytab.h,v 1.1 2006/07/14 14:23:06 jlam Exp $ */
+
 /* A Bison parser, made by GNU Bison 1.875.  */
 
 /* Skeleton parser for Yacc-like parsing with Bison,

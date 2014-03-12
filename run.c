@@ -1,3 +1,5 @@
+/* $NetBSD: run.c,v 1.2 2009/10/29 20:21:53 tnn Exp $ */
+
 /****************************************************************
 Copyright (C) Lucent Technologies 1997
 All Rights Reserved
@@ -386,7 +388,7 @@ Cell *jump(Node **a, int n)	/* break, continue, next, nextfile, return */
 	return 0;	/* not reached */
 }
 
-Cell *getline(Node **a, int n)	/* get next line from specific input */
+Cell *get_line(Node **a, int n)	/* get next line from specific input */
 {		/* a[0] is variable, a[1] is operator, a[2] is filename */
 	Cell *r, *x;
 	extern Cell **fldtab;

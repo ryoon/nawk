@@ -1,3 +1,5 @@
+/* $NetBSD: b.c,v 1.2 2013/06/14 14:46:37 tron Exp $ */
+
 /****************************************************************
 Copyright (C) Lucent Technologies 1997
 All Rights Reserved
@@ -718,7 +720,7 @@ Node *unary(Node *np)
  * to nelson beebe for the suggestion; let's see if it works everywhere.
  */
 
-#ifndef HAS_ISBLANK
+#if !defined(HAS_ISBLANK) && !defined(__APPLE__)
 
 int (isblank)(int c)
 {

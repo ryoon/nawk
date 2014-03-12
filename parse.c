@@ -1,3 +1,5 @@
+/* $NetBSD: parse.c,v 1.1 2006/07/14 14:23:06 jlam Exp $ */
+
 /****************************************************************
 Copyright (C) Lucent Technologies 1997
 All Rights Reserved
