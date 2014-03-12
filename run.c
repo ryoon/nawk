@@ -1,3 +1,5 @@
+/* $NetBSD: run.c,v 1.2 2009/10/29 20:21:53 tnn Exp $ */
+
 /****************************************************************
 Copyright (C) Lucent Technologies 1997
 All Rights Reserved

@@ -1,3 +1,5 @@
+/* $NetBSD: proctab.c,v 1.2 2009/10/29 20:21:53 tnn Exp $ */
+
 #include <stdio.h>
 #include "awk.h"
 #include "ytab.h"
